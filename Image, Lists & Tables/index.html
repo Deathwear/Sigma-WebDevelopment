@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Image, Lists, and Tables</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <!-- don't need to write px in height or width for write in html, but in css we are needed to specify px or anything else -->
     <!-- prefer to adjust height and widht in css not in html, but is helpful for SEO -->
     <img src="./img/train.png" alt="Train Image" width="50%" height="50%">
     <!-- here height doesn't matter it will be automatically adjusted by web browser accordingly -->
-
+    <br>
     <!-- TABLES -->
     <!-- colspan is used for merging column used 
     rowspan is used for merging row
@@ -21,31 +23,46 @@
         <!-- caption styling will be done by css -->
         <caption>Owner Details</caption>
         <!-- tr is described for every row -->
-        <tr>
-            <!-- th is used as table heading -->
-            <th>Name</th>
-            <th>Designation</th>
-            <th>Fav Language</th>
-        </tr>
-        <!-- started another table row -->
-        <tr>
-            <!-- td stands for table data -->
-            <td>Aamir</td>
-            <td>Programmer</td>
-            <td>Java</td>
-        </tr>
-        <tr>
-            <td>Arsaland</td>
-            <td>Developer</td>
-            <td>JavaScript</td>
-        </tr>
-        <tr>
-            <td>Taliban</td>
-            <td>Web-Developer</td>
-            <td>HTML, CSS, JavaScript</td>
-        </tr>
+        <thead>
+            <!-- header content -->
+            header content
+        </thead>
+        <tbody>
+
+
+            <tr>
+                <!-- th is used as table heading -->
+                <th>Name</th>
+                <th>Designation</th>
+                <th>Fav Language</th>
+            </tr>
+            <!-- started another table row -->
+            <tr>
+                <!-- td stands for table data -->
+                <td>Aamir</td>
+                <td>Programmer</td>
+                <td>Java</td>
+            </tr>
+            <tr>
+                <td>Arsaland</td>
+                <td>Developer</td>
+                <td>JavaScript</td>
+            </tr>
+            <tr>
+                <td>Taliban</td>
+                <td>Web-Developer</td>
+                <td>HTML, CSS, JavaScript</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <!-- footer content -->
+            footer content
+        </tfoot>
+        <!-- header and footer will be styled in css -->
+
     </table>
 
-    
+
 </body>
+
 </html>
