@@ -13,6 +13,8 @@
         <div>
             <label for="username">Enter your Username: </label>
             <!-- id is a unique identifier -->
+            <!-- placeholder means agr kuch nhi likha h usme to wo likha hua aajayega -->
+            <!-- required means it is essential to fill -->
             <input type="text" name="username" id="username" placeholder="Enter your username">
         </div>
         <div>
@@ -30,7 +32,13 @@
             <!-- br tag is not recommended -->
             <label for="comment">Enter your comment: </label><br>
             <textarea name="comment" id="comment" cols="50" rows="4"></textarea>
-
+        </div>
+        <div>
+            <select name="fruits" id="fruits">
+                <option value="apple">Apple</option> 
+                <option value="banana">Banana</option> 
+                <option value="cherry">Cherry</option> 
+            </select>
         </div>
     </form>
 </body>
