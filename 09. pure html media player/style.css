@@ -24,3 +24,43 @@ nav{
 }
 /* end of nav-bar */
 
+/* main */
+h2{
+    text-align: center;
+}
+video:hover{
+    transform: scale(1.2);
+}
+audio:hover{
+    transform: scale(1.2);
+}
+.audio{
+    width: 100%;
+    border: 1px solid black;
+    border-bottom: 2px solid black;
+    /* margin-top: 100px; */
+    display: flow-root;
+    background-color: rgb(164, 179, 179);
+}
+.video{
+    width: 100%;
+    border: 1px solid black;
+    background-color: rgb(164, 179, 179);
+}
+.audio audio{
+    width: 33.333%; /* Divide 100% by the number of audio tags (6) */
+    float: left; /* Float the audio tags to make them sit side by side */
+    margin-bottom: 10px;
+}
+video{
+    margin-left: 15px;
+}
+
+/* footer */
+footer{
+    width: 100%;
+    border: 1px solid black;
+    text-align: center;
+    background-color: grey;
+    padding-top: 40px;
+}
