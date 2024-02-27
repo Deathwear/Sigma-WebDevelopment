@@ -1,0 +1,26 @@
+/* header */
+h1{
+    text-align: center;
+    color: grey;
+}
+h1:hover{
+    color: brown;
+}
+/* end of header */
+
+/* nav bar */
+ul{
+    display: flex;
+    
+}
+li{
+    margin: 10px;
+}
+li:hover{
+    color: brown;
+}
+nav{
+    background: grey;
+}
+/* end of nav-bar */
+
