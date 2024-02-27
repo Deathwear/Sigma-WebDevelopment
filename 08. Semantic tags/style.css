@@ -1,0 +1,12 @@
+ul{
+    display: flex;
+    
+}
+li{
+    margin: 10px;
+    align-items: center;
+}
+nav{
+    background-color: aqua;
+    border-style: dotted;
+}
