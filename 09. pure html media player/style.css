@@ -1,40 +1,49 @@
 /* header */
-h1{
+h1 {
     text-align: center;
     color: grey;
 }
-h1:hover{
+
+h1:hover {
     color: brown;
 }
+
 /* end of header */
 
 /* nav bar */
-ul{
+ul {
     display: flex;
-    
+
 }
-li{
+
+li {
     margin: 10px;
 }
-li:hover{
+
+li:hover {
     color: brown;
 }
-nav{
+
+nav {
     background: grey;
 }
+
 /* end of nav-bar */
 
 /* main */
-h2{
+h2 {
     text-align: center;
 }
-video:hover{
+
+video:hover {
     transform: scale(1.2);
 }
-audio:hover{
+
+audio:hover {
     transform: scale(1.2);
 }
-.audio{
+
+.audio {
     width: 100%;
     border: 1px solid black;
     border-bottom: 2px solid black;
@@ -42,22 +51,36 @@ audio:hover{
     display: flow-root;
     background-color: rgb(164, 179, 179);
 }
-.video{
+
+.video {
     width: 100%;
     border: 1px solid black;
     background-color: rgb(164, 179, 179);
 }
-.audio audio{
-    width: 33.333%; /* Divide 100% by the number of audio tags (6) */
-    float: left; /* Float the audio tags to make them sit side by side */
+
+.audio audio {
+    width: 33.333%;
+    /* Divide 100% by the number of audio tags (6) */
+    float: left;
+    /* Float the audio tags to make them sit side by side */
     margin-bottom: 10px;
 }
-video{
+
+video {
     margin-left: 15px;
 }
 
+a:hover {
+    color: brown;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
 /* footer */
-footer{
+footer {
     width: 100%;
     border: 1px solid black;
     text-align: center;
