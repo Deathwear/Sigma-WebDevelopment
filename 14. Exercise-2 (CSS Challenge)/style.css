@@ -1,0 +1,9 @@
+div:first-of-type p:first-of-type {
+    background-color: red; /* First paragraph of the first div */
+}
+
+div p {
+    background-color: blue; /* All paragraphs inside divs */
+    color: white; /* Text color for all paragraphs */
+    padding: 10px; /* Add some padding for better appearance */
+}
