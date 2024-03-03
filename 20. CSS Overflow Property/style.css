@@ -1,0 +1,14 @@
+/* fixing overflow can be done in two ways */
+
+.box {
+    width: 40vw;
+    height: 20vh;
+    border: 2px solid black;
+    /* fixing overflow */
+    overflow: auto scroll;
+    /*overflow-x: hidden;
+    overflow-y: scroll;*/
+    /*white-space: nowrap;*/
+    text-overflow: ellipsis;
+
+}
