@@ -1,9 +1,45 @@
-div:first-of-type p:first-of-type {
-    background-color: red; /* First paragraph of the first div */
+div p:first-child {
+    background-color: yellow;
+    color: red;
+}
+
+p {
+    background-color: blue;
+    color: white;
+}
+
+
+
+
+/*
+    it can also be done as:
+
+div p:first-of-type {   (works because of specificity)
+    background-color: yellow;
+    ( First paragraph of the divs )
+    color: red;
 }
 
 div p {
-    background-color: blue; /* All paragraphs inside divs */
-    color: white; /* Text color for all paragraphs */
-    padding: 10px; /* Add some padding for better appearance */
+    background-color: blue;
+    ( All paragraphs inside divs)
+    color: white;
+    ( Text color for all paragraphs)
+    padding: 10px;
+    ( Add some padding for better appearance)
 }
+
+*/
+
+
+/*
+                             [first-child vs :first-of-type]
+
+    Let's start by defining them individually:
+
+    :first-child only selects the first element IF it is the first child of its parent. That means if it's not the first child of the parent, nothing will be selected.
+
+    :first-of-type will select the first element of the type you specified. Even if it's not the first child of its parent. So a result will always appear if you use this selector (unless you picked an element that doesn't exist at all).    
+
+
+ */
