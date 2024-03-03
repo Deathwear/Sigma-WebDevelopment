@@ -5,7 +5,7 @@
     border-radius: 10px;
     position: absolute;
     /*background-color: rgb(253, 244, 236);*/
-    background: linear-gradient(to top left, rgb(245, 228, 228),  rgb(251, 251, 255));
+    background: linear-gradient(to bottom right, rgb(245, 228, 228),  rgb(245, 245, 253));
 }
 
 div img {
@@ -13,7 +13,7 @@ div img {
     width: 290px;
     border-radius: 25px;
     padding: 5px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
     box-sizing: border-box;
 
 }
@@ -21,7 +21,7 @@ div img {
 div span {
     color: rgb(134, 117, 117);
     padding: 2px;
-    margin: 7px;
+    margin: 2px;
     border: 1px solid rgb(209, 187, 187);
     border-radius: 15px;
     
@@ -31,7 +31,7 @@ div span {
 .span {
     /*display: flex;*/
     position: relative;
-    left: 20px;
+    left: 15px;
     font-family: Arial, Helvetica, sans-serif;
 
 }
@@ -43,9 +43,9 @@ div span {
 }
 
 button{
-    color: blue;
-    background-color: lightblue;
-    border-radius:20px;
+    color: rgb(42, 42, 218);
+    background-color: rgb(214, 233, 240);
+    border-radius:25px;
     border: none;
     padding: 15px;
     position: relative;
@@ -55,6 +55,6 @@ button{
 }
 
 p{
-    color: rgb(82, 76, 69);
+    color: rgb(141, 137, 132);
     font-weight: 200;
 }
