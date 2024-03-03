@@ -1,0 +1,37 @@
+/* root ke andar kuch b global variable hota hm usko use var() se krskte hain */
+:root{
+    --color: rgb(210, 104, 249);
+    --seccolor: rgb(237, 199, 240);
+    --defpad: 23px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav{
+    background-color:var(--color);
+}
+
+.container{
+    background-color: var(--seccolor);
+}
+
+
+ul li{
+    list-style: none;
+    padding: var(--defpad);
+    margin: 5px;
+    border: 2px solid var(--seccolor);
+    border-radius: 5px;
+}
+
+ul li:first-child{
+    /* making color as local variable */
+    --color: rgb(228, 146, 255);
+    background-color: var(--color, violet);
+}
+
+ul{
+    display: flex;
+}
