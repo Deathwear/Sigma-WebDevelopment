@@ -1,0 +1,35 @@
+/*li ke andar marker remove krna hai*/
+/* marker is the number or representation method of list */
+/* marker is outside of the list  */
+
+
+/*
+
+
+nav ul li{
+    list-style: devanagari;
+    list-style-type: "👉🏾";
+    background-color: yellow; 
+    /* (marker is now inside bcz of the list-style-position: inside) */
+    /* to make marker inside the list (check backgroung color to understand the position) 
+    list-style-position: inside;
+    border: 2px solid black;
+    list-style: inside url("https://yourlinkhere.com"") ;
+    /*list-style-image: url("https://imgur.com/aFpGhPh");
+}
+
+
+*/
+
+/* now to make the proper nav bar working from here */
+
+ul{
+    /* flex on the container */
+    display: flex;
+    background-color: yellow;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 23px;
+}
