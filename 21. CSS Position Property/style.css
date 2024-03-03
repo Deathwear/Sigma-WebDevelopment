@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.box {
+    height: 433px;
+    width: 80vw;
+    padding: 3px;
+    margin: 3px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+/* by defalut all booxes positions are static */
+/* z-index use krne ke liye position static htani pdegi */
+/* position : absolute works for nearest position ancestor (papa ke paas h to papa, nhi to dada nhi to fir pardada)*/
+
+
+.box1 {
+    background-color: aqua;
+    position: sticky;
+    top: 0px;
+    height: 111px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.box2 {
+    background-color: azure;
+    position: fixed;
+    height: 111px;
+    /*z-index: 1;*/
+    bottom: 15px;
+    left: 8vw;
+}
+
+.box3 {
+    background-color: antiquewhite;
+}
+
+.box4 {
+    background-color: purple;
+}
+.box5{
+    background-color: rgb(179, 224, 226);
+}
+
+.box6 {
+    background-color: antiquewhite;
+}
+
+.parent {
+    padding: 43px;
+    margin: 34px;
+    border: 3px solid purple;
+
+
+
+    /* Exception:
+            transform, filter, or perspective properties can also make an element as positioned
+    */
+        /*remove these property one by one for understanding the postion of box2*/
+        
+    /*transform: translate(0);*/
+    /*filter: invert(0);*/
+    /*perspective: 0em;*/
+    /* now box2 will be fixed w.r.t class = "parent"'s  div, so it will not appear at the bottom. because of transform/filter property */
+}
