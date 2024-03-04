@@ -1,0 +1,34 @@
+/**{
+    margin: 0;
+    padding: 0;
+}*/
+
+:root{
+    --color: rgb(61, 11, 11);
+    --seccolor: rgb(123, 99, 99);
+}
+
+body{
+    background-color: var(--seccolor);
+    margin: 4px;
+    padding: 4px;
+    /*display: flex;*/
+}
+
+nav ul li{
+    list-style-type: none;    
+    display: inline;
+    margin: 4%;
+    padding: 4px;
+}
+nav{
+    border: 2px solid rgb(212, 185, 185);
+    background-color: var(--color);
+    box-shadow: 2px 4px 7px var(--color);
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: var(--seccolor);
+}
