@@ -1,3 +1,8 @@
+body{
+    background-color: antiquewhite;
+}
+
+
 .container {
     height: 450px;
     width: 290px;
@@ -6,6 +11,8 @@
     position: absolute;
     /*background-color: rgb(253, 244, 236);*/
     background: linear-gradient(to bottom right, rgb(245, 228, 228),  rgb(245, 245, 253));
+    box-shadow: 9px 9px 16px rgba(0, 0, 0, 0.205);
+    
 }
 
 div img {
@@ -20,7 +27,7 @@ div img {
 
 div span {
     color: rgb(134, 117, 117);
-    padding: 2px;
+    padding: 2px 4px;
     margin: 2px;
     border: 1px solid rgb(209, 187, 187);
     border-radius: 15px;
@@ -49,7 +56,7 @@ button{
     border: none;
     padding: 15px;
     position: relative;
-    left: 30%;
+    left: 27%;
     bottom: 10px;
     font-size: 1rem;
 }
