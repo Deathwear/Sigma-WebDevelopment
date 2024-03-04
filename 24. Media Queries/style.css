@@ -1,0 +1,44 @@
+body {
+    background-color: red;
+}
+
+/*            [SYNTAX]
+    @media not|only mediatype and (expressions){
+        CSS-Code;
+    }
+*/
+
+@media only screen and (max-width: 455px) {
+    body {
+        background-color: blue;
+    }
+
+    .boxes {
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (orientation: landscape) {
+    /* border will be shown of purple color when device is in landscape mode */
+    body {
+        border: 2px solid purple;
+    }
+}
+
+.boxes {
+    display: flex;
+    border: 2px solid black;
+}
+
+.box {
+    /* box height & widh */
+    width: 344px;
+    height: 344px;
+    background-color: steelblue;
+    padding: 3px;
+    margin: 3px;
+    align-self: center;
+    text-align: center;
+
+}
