@@ -1,6 +1,8 @@
 body{
     background-color: antiquewhite;
-    padding: 25vh 40vw;
+    padding: 25px;
+    display: flex;
+
 }
 
 
@@ -9,11 +11,10 @@ body{
     width: 290px;
     border: 1px solid rgb(174, 168, 168);
     border-radius: 10px;
-    position: absolute;
     /*background-color: rgb(253, 244, 236);*/
     background: linear-gradient(to bottom right, rgb(245, 228, 228),  rgb(245, 245, 253));
     box-shadow: 9px 9px 16px rgba(0, 0, 0, 0.205);
-    
+    margin: 4px;
 }
 
 div img {
