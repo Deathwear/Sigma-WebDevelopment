@@ -61,6 +61,12 @@ button{
     left: 27%;
     bottom: 10px;
     font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover{
+    color: rgb(100, 100, 218);
+    background-color: rgb(225, 234, 237);
 }
 
 p{
