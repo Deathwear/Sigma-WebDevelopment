@@ -10,6 +10,7 @@ body {
 header {
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 
 nav {
@@ -34,19 +35,19 @@ nav ul li a {
 .section1 {
     background-color: rgb(163, 218, 163);
     border: 2px solid black;
-    margin: 7px;
+    margin: 12px 34px;
     height: 60vh;
     display: flex;
     position: relative;
+    text-align: center;
 }
 
 .container1 {
-    width: 200px;
+    width: 250px;
+    height: 40vh;
     border: 2px solid black;
-    margin: 43px 15vw;
+    margin: auto;
     background-color: rgb(224, 170, 68);
-    position: relative;
-    /*left: 50px;*/
 }
 
 /*.container2 {
@@ -69,7 +70,7 @@ nav ul li a {
 .section2 {
     height: 60vh;
 }
-
+/*
 div img{
     border: 2px solid rgb(27, 9, 9);
     position: fixed;
@@ -77,6 +78,17 @@ div img{
     bottom: 30px;
     border-radius: 46px;
     background-color: rgb(239, 232, 26);
+}*/
+
+.logo-fixed{
+    height: 45px;
+    width: 45px;
+    background-color: orange;
+    border: 2px solid black;
+    border-radius: 25px;
+    position: fixed;
+    right: 20px;
+    bottom: 30px;
 }
 
 
