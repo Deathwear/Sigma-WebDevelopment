@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox | CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <div class="item item1">1</div>
+            <div class="item item2">2</div>
+            <div class="item item3">3</div>
+            <div class="item item4">4</div>
+            <div class="item item5">5</div>
+        </div>
+
+    </main>
+
+</body>
+
+</html>
+
+<!-- 
+    => flexbox items are not from left to right, instead they are in flex direction.
+    => There are two axis: main axis and cross axis 
+    justify-content: center; makes it center from the main axis irrespective of horizontal and vertical direction
+    => flex-wrap will wrap the content to the next line so that content will not get hidden or overflow.
+    => align-content: center; will align more two line in center
+    => There is no justify-item in flexbox
+    => wrap-reverse will wrap it reverse 
+    
+    =>flex-flow: "direction" "property"
+    for eg: 
+        flex-flow: row wrap-reverse;
+        (it will make its content execute its property with its given direction i.e., in its row/column direction)
+
+         (there are some property for items also)like:
+
+         gap:40px; (gap can be defined for row & column independently)
+ -->
+
+
+
+<!-- 
+                            ```[FLEXBOX]```
+        
+
+        FlexBox aka Flexible Box Layout makes it easier to layout, align and style items in the container while maintaining the responsiveness of the website.
+        To create a flexbox you need to set the display of the container as flex
+        Eg: {display: flex;}
+
+
+
+                            ```{Flex Container Properties}```
+
+        1. Flex Direction   (decides the direction of the items i.e., row/column wise)
+        2. Flex Wrap  (wrap the contents into many lines i.e., preventing it from overflow/ hiding)
+        3. Justify Content (aligns through main axis generall horizontal when direction is row, not column)
+        4. Align Items    (aligns the single line)
+        5. Align Content  (aligns the all lines when wrap is enabled)
+        6. Gap: "row" "col";
+
+
+
+                            ```{Flex Items Properties}```
+        1. Order: "value"(1/2/3/4 etc) ( sets the order in which the flex items are shown.)
+        2. Flex Grow & Shrink  (Decides the relative size of flex items. By default, this property is zero)  e.g: flex-grow: 3; (make its size triple to the other boxes)
+        3. Align Self (This property allows default alignment to be overridden for the individual flex items)  for-e.g: align-self: end; (will make this box at the end of the flex while other are at their decided position)
+ 
+
+  -->

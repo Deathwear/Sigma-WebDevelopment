@@ -1,0 +1,36 @@
+.container {
+    border: 3px solid red;
+    /* display: flex; means now you can use the property of flexbox */
+    display: flex;
+    height: 80vh;
+    /* main-axis center (justify-content: center;) */
+    justify-content: center;
+    /* cross-axis center (align-items: center;) */
+    align-items: center;
+    /* Check all items of flex-box in chrome inspect tab */
+    /* flex-wrap: wrap; will wrap the content if there are no space left(means it will show the content in the next line) */
+    flex-wrap: wrap;
+    /* align-content will make the all lines into center while align item will make the single line into center  */
+    /*align-content: center;*/
+    /*gap: 40px;*/
+
+}
+
+.item {
+    height: 92px;
+    width: 92px;
+    border: 2px solid black;
+    margin: 4px;
+    background-color: blueviolet;
+    /*align-self: flex-end;*/
+}
+
+.item1,
+.item5 {
+    align-self: flex-start;
+}
+
+.item3 {
+    align-self: flex-end;
+    /*overrides align-items*/
+}
