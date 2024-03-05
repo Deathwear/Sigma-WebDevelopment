@@ -1,0 +1,63 @@
+            /*  More on CSS selectors is also included in this #35 | CWH */
+
+        /* element selector */
+        div{
+            /*background-color: red;*/
+        }
+        /* Class Selector */
+        .red{
+            background-color: red;
+        }
+
+        /* ID Selector */
+        #green{
+            background-color: green;
+        }
+        /* Child Selector */
+        div > p{
+            color: blue;
+            background-color: brown;
+        }
+
+        /* Desecndent Selector */
+        div p{
+            color: blue;
+            background-color: brown;
+        }
+
+        /* Universal Selector */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        /* Pseudo Selector*/
+        a:visited{
+            color: yellow;
+        }
+        a:link{
+            color: green;
+        }
+        a:active{
+            background-color: red;
+        }
+        a:hover{
+            background-color: yellow;
+        }
+        p:first-child{
+            background-color: aqua;
+        }
+        /* targeting placeholder in input text box */
+        input::placeholder{
+            color: blue;
+        }
+
+        /* 
+                  [Pseudo Elements]
+        Elements can be inserted dynamically through CSS.
+        for Eg:
+            .box::before{
+                content: "Aamir is good";
+            }
+
+            (this wiil be written on the website before the box class similary we can use after property)
+         */

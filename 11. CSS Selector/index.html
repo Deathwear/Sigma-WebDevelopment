@@ -4,57 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Selector</title>
-    <style>
-        /* element selector */
-        div{
-            /*background-color: red;*/
-        }
-        /* Class Selector */
-        .red{
-            background-color: red;
-        }
-
-        /* ID Selector */
-        #green{
-            background-color: green;
-        }
-        /* Child Selector */
-        div > p{
-            color: blue;
-            background-color: brown;
-        }
-
-        /* Desecndent Selector */
-        div p{
-            color: blue;
-            background-color: brown;
-        }
-
-        /* Universal Selector */
-        *{
-            margin: 0;
-            padding: 0;
-        }
-        /* Pseudo Selector*/
-        a:visited{
-            color: yellow;
-        }
-        a:link{
-            color: green;
-        }
-        a:active{
-            background-color: red;
-        }
-        a:hover{
-            background-color: yellow;
-        }
-        p:first-child{
-            background-color: aqua;
-        }
-
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- More on CSS selectors is also included in this #35 | CWH -->
     <div class="red">
         I am a div
         <p>I am a para inside div</p>
@@ -69,6 +22,8 @@
         <p>I am first</p>
         <p>I am second</p>
     </main>
+
+    <input type="text" placeholder="Type your text here">input your text here
 </body>
 </html>
 
@@ -82,3 +37,47 @@
         ->Universal Selector
         ->Pseudo Selector
  -->
+
+ <!-- 
+    Grouping of selector by "," (comma)
+    descendent selector by " " (space)
+    child selector by ">" (greater than)
+    ID selector by "#" (hash)
+    class selector by "." (dot)
+    pseudo selector by ":" (colon)
+    attribute selector by "[]" (inside big bracket)
+    element selector written directly
+    first-line/first-letter property selector by "::" (double colon)
+    n-th child selector by ":n-th-chile(position/even/odd)"
+  -->
+
+
+  <!-- 
+                  [Pseudo Elements]
+        Elements can be inserted dynamically through CSS.
+        for Eg:
+            .box::before{
+                content: "Aamir is good";
+            }
+
+            (this wiil be written on the website before the box class similary we can use after property)
+   -->
+
+   <!-- 
+        ::selection is used for selected elements
+        for eg:
+                .box::selection{
+                    color: aqua;
+                }
+            (it works when we select these item)
+    -->
+
+    <!-- 
+        targeting placeholder
+        for eg:
+        input::placeholder{
+            color: blue;
+        }
+        (this will convert the text color/ size / font whatever of the placeholder into whaterver we want)
+     -->
+
