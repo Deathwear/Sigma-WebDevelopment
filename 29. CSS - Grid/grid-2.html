@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid | CSS</title>
+    <link rel="stylesheet" href="grid-2.css">
+</head>
+        <!-- Here we are moving items with grid area naming-->
+<body>
+    <div class="container">
+        <div class="item item-1">1</div>
+        <div class="item item-2">2</div>
+        <div class="item item-3">3</div>
+        <div class="item item-4">4</div>
+        <div class="item item-5">5</div>
+    </div>
+    
+</body>
+</html>
+
+<!-- moving grid with area naming -->
+
+<!-- we can overlap the area by giving them the same name area -->
+
+<!-- 
+    [fr - Unit] (fr-fraction)
+    for eg: grid-template-columns: 1fr 1fr 1fr; (means it will divide the one column into 1fraction + 1fr + 1fr = 3parts)  also can be used as grid-template-columns: repeat(4, 1fr);
+
+    min-max width:
+    grid-template-columns: repeat(4, minmax(100px, 1fr));
+
+
+    you can also use gap property:
+    gap: 20px;
+    row-gap: 20px;
+    column-gap: 20px;
+
+
+            (properties:)
+    items are used for moving all items within the cell; not the whole grid inside the container
+    justfy-item:
+    align-item:
+      content will only work when we are needed to move the whole grid inside the container from one position to another
+    justify-content:
+    align-content:
+
+    also check for other position property.
+            (individual propertry)
+            this will move the single single element
+    align-self:
+    justify-self:
+
+-->
