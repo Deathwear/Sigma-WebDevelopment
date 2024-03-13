@@ -1,8 +1,8 @@
-.logo {
-    /*width: 40px;
-    height: 23px;*/
-    /*background-color: aquamarine;*/
-}
+/*.logo {
+    width: 40px;
+    height: 23px;
+    background-color: aquamarine;
+}*/
 
 nav {
     display: flex;
@@ -26,6 +26,6 @@ nav {
     width: 180px;
 }
 
-.icon {
+/*.icon {
     : url(https://www.ultraedit.com/wp-content/themes/Divi_Child/img/Lang.png);
-}
+}*/
