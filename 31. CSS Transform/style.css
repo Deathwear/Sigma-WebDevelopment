@@ -1,0 +1,18 @@
+.box {
+    height: 50px;
+    width: 50px;
+    background-color: beige;
+    border: 2px solid black;
+    transform: rotate(40deg);
+}
+
+.container {
+    width: 95vw;
+    height: 80vw;
+    border: 2px solid purple;
+
+}
+
+/*
+    Check Demo.html for all properties of transform.
+*/
