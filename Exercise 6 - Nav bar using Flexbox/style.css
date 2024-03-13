@@ -19,6 +19,9 @@ nav {
 .right ul li {
     list-style: none;
     margin: 0px 23px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
 }
 
 .logo a img {
