@@ -1,0 +1,28 @@
+/* Exercise 6 (Nav-bar designing using flexbox) */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 23px;
+    margin: 0px 45px;
+}
+
+.right ul {
+    display: flex;
+}
+
+.right ul li {
+    list-style: none;
+    margin: 0px 23px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logo a img {
+    height: 56px;
+    width: 180px;
+}
+
+
+/* Exercise 7 (Website containers using grid) */
