@@ -134,12 +134,7 @@ nav {
 .container .buttons {
     display: grid;
     grid-template-columns: auto auto;
-
     text-wrap: nowrap;
-
-
-
-
 }
 
 .container .button1 {
