@@ -91,7 +91,21 @@ nav {
 .last_content .last_content_text {
     margin: 0;
     padding: 0;
+    /*font-weight: 200;*/
+}
 
+.last_content .last_content_text h3{
+    font-size: 34px;
+    font-weight: 200;
+}
+
+.last_content .last_content_text h3 small{
+    font-size: 17px;
+}
+
+.last_content .last_content_text a{
+    text-decoration: none;
+    color: black;
 }
 
 
