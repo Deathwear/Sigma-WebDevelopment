@@ -24,5 +24,156 @@ nav {
     width: 180px;
 }
 
+/* nav bar is not responsive */
 
 /* Exercise 7 (Website containers using grid) */
+
+.main_content {
+
+    padding: 55px 85px 15px 65px;
+    display: grid;
+    justify-items: center;
+    text-align: center;
+    /*justify-content: center;*/
+    gap: 25px;
+}
+
+
+.outer_header h1 {
+    line-height: 1.5em;
+    font-weight: 500;
+    max-width: 960px;
+
+}
+
+.outer_header h1 strong {
+    font-weight: 700;
+}
+
+.inner_header h3 {
+    width: 90%;
+    max-width: 960px;
+    /*max-width: 960px;*/
+    font-weight: 500;
+    font-size: x-large;
+}
+
+.main_content .dwnld_button_mac_linux {
+    font-size: 14px;
+    background-color: #00b6d1;
+    border-width: 0px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 12px 20px;
+    min-height: 48px;
+    min-width: 256px;
+    display: grid;
+    align-content: center;
+}
+
+.main_content .dwnld_button_mac_linux a {
+    color: white;
+    text-decoration: none;
+}
+
+.last_content {
+    background-size: 60px auto;
+    background-position: left center;
+    background-image: url(https://www.ultraedit.com/wp-content/uploads/2023/01/UE_logo_icon_white.png);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 80px;
+    background-repeat: no-repeat;
+    justify-self: left;
+}
+
+.last_content .last_content_text {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+
+
+/* Container */
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    padding: 55px 85px 15px 65px;
+    row-gap: 25px;
+}
+
+
+.box {
+    background-color: #f9f6f6;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-right: 3%;
+    display: grid;
+    justify-self: center;
+
+}
+
+.box .box_text {
+    text-align: center;
+    margin-bottom: 4.78%;
+
+}
+
+.container .buttons a {
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+.container .buttons {
+    display: grid;
+    grid-template-columns: auto auto;
+
+    text-wrap: nowrap;
+
+
+
+
+}
+
+.container .button1 {
+    font-size: small;
+    padding: 8px 15px;
+    min-height: 10px;
+    background-color: #00b6d1;
+    border-width: 0px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-style: normal;
+    text-transform: uppercase;
+    margin: 5px;
+}
+
+.container .button2 {
+    font-size: small;
+    padding: 8px 15px;
+    min-height: 10px;
+    text-transform: none;
+    background-color: #71bb82;
+    border-radius: 5px;
+    font-weight: bold;
+    font-style: normal;
+    text-transform: uppercase;
+    margin: 5px;
+}
+
+@media only screen and (max-width: 981px) {
+    .container {
+        display: grid;
+    }
+
+    .container .buttons {
+        display: grid;
+    }
+}
