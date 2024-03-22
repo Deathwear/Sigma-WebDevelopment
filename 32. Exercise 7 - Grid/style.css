@@ -113,11 +113,10 @@ nav {
 
 .box {
     background-color: #f9f6f6;
-    padding-top: 20px 10px;
+    padding: 20px 10px;
     padding-bottom: 10px;
     margin-right: 23px;
     display: grid;
-    justify-self: center;
 
 }
 
@@ -137,11 +136,12 @@ nav {
     display: grid;
     grid-template-columns: auto auto;
     text-wrap: nowrap;
+    justify-content: center;
 }
 
 .container .button1 {
     font-size: 12px;
-    padding: 8px 15px;
+    padding: 10px 5px;
     background-color: #00b6d1;
     border-width: 0px;
     border-radius: 5px;
@@ -152,7 +152,7 @@ nav {
 
 .container .button2 {
     font-size: 12px;
-    padding: 8px 15px;
+    padding: 10px 5px;
     text-transform: none;
     background-color: #71bb82;
     border-radius: 5px;
