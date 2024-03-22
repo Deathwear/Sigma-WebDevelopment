@@ -164,6 +164,8 @@ nav {
 @media screen and (max-width: 981px) {
     .container {
         display: grid;
+        grid-template-columns: 1fr;
+        /*background-color: red;*/
     }
 
     .container .buttons {
