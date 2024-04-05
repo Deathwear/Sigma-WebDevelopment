@@ -49,24 +49,24 @@ Happy coding! 🌐✨
 - JavaScript Library
 
 ### React – Learn react using [this course](https://www.youtube.com/playlist?list=PLu0W_9lII9agq5TrH9XLIKQvv0iaF2X3w) 
--- States   
--- Hooks    
--- Props    
--- Events   
--- React-Router-Dom   
--- Redux   
+-- States  
+-- Hooks  
+-- Props  
+-- Events  
+-- React-Router-Dom  
+-- Redux  
 
 ## B A C K E N D  
 - Backend - A lot of choices are there like: Django, Flask, FastAPI, PHP, Nest.js
 
-- ExpressJS   
--- Request   
--- Response    
--- Middleware   
--- APIs    
+- ExpressJS  
+-- Request  
+-- Response  
+-- Middleware  
+-- APIs  
 -- ejs/pug [Optional]
   
-- Database:   
+- Database:  
 -- Go for MongoDB as its syntax is JavaScript based (Recommended)   
 -- Recommended with MongoDB is ORM like Mongoose/ Prisma   
 -- Look into MongoDB Atlas & MongoDB Compass    
